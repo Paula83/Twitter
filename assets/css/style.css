@@ -1,0 +1,119 @@
+
+body{
+	margin: 0;
+}
+
+/* Barra de menu*/
+
+.menu{
+	width: 100%;
+	background-color:#1da1f2; 
+	list-style:none;
+}
+
+
+.menu li{
+   display: inline-block;
+}
+
+.menu li a {
+	padding: 20px 30px;
+	display: inline-block;
+	color:#fff;
+	font-size: 15px;
+	text-decoration:none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.fa  {
+  width: 10px;
+  color: #fff;
+
+}
+
+
+
+
+/* Formulario*/
+
+.container{
+	margin-left:50px;
+	display: inline-block;
+}
+
+#mensaje{
+	border:none;
+	margin-bottom: 30px;
+	width: 300px;
+	padding:10px;
+	border-bottom: 1px solid #6AD2F3;
+	margin-left:800px;
+	
+}
+
+textarea{
+		resize: vertical;
+		max-height:500px;
+		min-height: 100px; 
+}
+
+
+.button input{
+
+	margin-bottom: 0px;
+	width:10%;
+    background-color:#1da1f2;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+	border: none;
+	margin-left:900px;
+
+	
+}
+
+
+/* cuadro texto*/
+
+.nota{
+	
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	margin-left:0px;
+	margin-top: -300px;
+	font-size: 25px;
+}
+
+
+/*contador*/
+.container {
+  	width: 300px;
+}
+.mensaje, .char-left {
+    font-size: 12pt;
+}
+.mensaje {
+	padding: 8px;
+	width: 284px;
+}
+.char-left {
+  	text-align: right;
+}
+.warning {
+    color: #c00;
+}
+
+p{
+	width: 400px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	margin-left:800px;
+}
+
+
+
+
+
+
+
