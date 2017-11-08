@@ -1,8 +1,8 @@
 window.onload = function(){
 	var boton = document.getElementById("submit");
 
-    /*contador carateres*/
-	var mensaje = document.getElementsByClassName("mensaje")[0],
+      /*contador carateres*/
+	  var mensaje = document.getElementsByClassName("mensaje")[0],
       charLeftLabel = "char-left",
       charLeft = document.getElementsByClassName(charLeftLabel)[0],
       maxChar = 140,
@@ -50,4 +50,3 @@ window.onload = function(){
 
 	})
 
-}
